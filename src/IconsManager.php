@@ -50,7 +50,7 @@ class IconsManager
 
     public function getFromCache()
     {
-        return Cache::rememberForever('icons', fn () => new Collection($this->getIterator()));
+        return Cache::rememberForever('wallacemaxters_filament_icon_picker', fn () => new Collection($this->getIterator()));
     }
 
     public function getIterator()
