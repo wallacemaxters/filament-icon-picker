@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./resources/css/theme.css -o ./resources/dist/filament-icon-picker.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}

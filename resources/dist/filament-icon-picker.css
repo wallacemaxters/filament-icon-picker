@@ -1,0 +1,13 @@
+/*! tailwindcss v4.1.11 | MIT License | https://tailwindcss.com */
+@layer components {
+  .fi-icon-picker-item {
+    display: flex;
+    align-items: center;
+    gap: calc(var(--spacing) * 3);
+  }
+  .fi-icon-picker-icon {
+    height: calc(var(--spacing) * 6);
+    width: calc(var(--spacing) * 6);
+    flex: none;
+  }
+}

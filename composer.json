@@ -1,0 +1,30 @@
+{
+    "version": "0.0.0",
+    "name": "wallacemaxters/filament-icon-picker",
+    "description": "Custom input for filament to picker icons",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "WallaceMaxters\\FilamentIconPicker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wallacemaxters",
+            "email": "wallacemaxters@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "illuminate/support": "^10.45|^11.0|^12.0",
+        "filament/filament": "^4.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WallaceMaxters\\FilamentIconPicker\\FilamentIconPickerServiceProvider"
+            ]
+        }
+    }
+}
