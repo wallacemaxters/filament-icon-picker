@@ -1,5 +1,5 @@
 {
-    "version": "0.0.0",
+   
     "name": "wallacemaxters/filament-icon-picker",
     "description": "Custom input for filament to picker icons",
     "type": "library",
