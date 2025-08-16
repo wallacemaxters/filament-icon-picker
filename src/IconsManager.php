@@ -41,7 +41,7 @@ class IconsManager
             ->filter($this->getSearchCallback($search));
     }
 
-    public function getFormattedOptions(?string $search)
+    public function getFormattedOptions(?string $search = null)
     {
         return $this->search($search)
             ->take(10)
@@ -56,6 +56,7 @@ class IconsManager
     public function getIterator()
     {
         $sets = app(\BladeUI\Icons\Factory::class)->all();
+
 
         foreach ($this->sets as $set) {
 
